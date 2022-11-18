@@ -2,7 +2,7 @@
 
 This package is a Fortran implementation of the recursive hybrid tetrahedron method for Brillouin-zone (BZ) integration. The package is intended to provide systematic solutions to BZ integrals encountered in practical condensed matter calculation that converge slowly due to known singularites. 
 
-A typical BZ integral may looks like
+A typical BZ integral may look like
 
 $$ \text{Int} = \int d^d k W(\mathbf{k}) F(\mathbf{k}) $$
 
