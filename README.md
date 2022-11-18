@@ -4,7 +4,7 @@ This package is a Fortran implementation of the recursive hybrid tetrahedron met
 
 A typical BZ integral may looks like
 
-$ \text{Int} = \int d^d k W(\mathbf{k}) F(\mathbf{k})$
+$$ \text{Int} = \int d^d k W(\mathbf{k}) F(\mathbf{k}) $$
 
 with a regular part <!-- $F(\mathbf{k})$ --> <img style="transform: translateY(0.1em); background: white;" src="svg\0XntFncjaW.svg"> and a singular weight function <!-- $W(\mathbf{k})$ --> <img style="transform: translateY(0.1em); background: white;" src="svg\JzfadJb3gv.svg">. <!-- $W(\mathbf{k})$ --> <img style="transform: translateY(0.1em); background: white;" src="svg\KLcG9sLLIN.svg"> may be discontinous or divergent in certain place in BZ, which causes poor convergence in integration. Typical example includes 
 <!-- $\begin{aligned}
