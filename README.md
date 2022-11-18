@@ -18,7 +18,7 @@ $$ W(\mathbf{k}) = \Theta(\epsilon_F-\varepsilon(\mathbf{k}))\delta(D(\mathbf{k}
 
 BZIntegral.f90 takes in values of some interpolable function, e.g. $\varepsilon(\mathbf{k})$ and $D(\mathbf{k})$, on a **regular grid** filling the BZ and returns the integral weights on the same $\mathbf{k}$-grid which can be used to integrate any regular $F(\mathbf{k})$ over the BZ by forming a weighted sum on the regular grid.
 
-Currently three types of singular factors in $W(\mathbf{k})$ are supported: $\Theta(X(\mathbf{k}))$, $\delta(X(\mathbf{k}))$, and $1/D(\mathbf{k})$. Routines that handles $W(\mathbf{k})$ with multiple singular factors are available.
+Currently three types of singular factors in $W(\mathbf{k})$ are supported: $\Theta(X(\mathbf{k}))$, $\delta(X(\mathbf{k}))$, and $1/D(\mathbf{k})$. Routines that handle $W(\mathbf{k})$ with multiple singular factors are available.
 ## Compilation
 To run a fortran program consist of a series of Fortran files, one need to first compile them by `makefile`, then run the executable file. Some `makefile` examples are given in `Int2d` and `Int3d`.
 
