@@ -6,13 +6,11 @@ A typical BZ integral may looks like
 
 $$ \text{Int} = \int d^d k W(\mathbf{k}) F(\mathbf{k}) $$
 
-with a regular part $F(\mathbf{k})$ and a singular weight function <!-- $W(\mathbf{k})$ --> <img style="transform: translateY(0.1em); background: white;" src="svg\JzfadJb3gv.svg">. <!-- $W(\mathbf{k})$ --> <img style="transform: translateY(0.1em); background: white;" src="svg\KLcG9sLLIN.svg"> may be discontinous or divergent in certain place in BZ, which causes poor convergence in integration. Typical example includes 
-<!-- $\begin{aligned}
-W(\mathbf{k}) &= \Theta(\epsilon_F-\varepsilon(\mathbf{k}))\\
-W(\mathbf{k}) &= \delta(\epsilon_F-\varepsilon(\mathbf{k}))\\
-W(\mathbf{k}) &= \Theta(\epsilon_F-\varepsilon(\mathbf{k}))\frac{1}{D(\mathbf{k})}\\
-W(\mathbf{k}) &= \Theta(\epsilon_F-\varepsilon(\mathbf{k}))\delta(D(\mathbf{k})).
-\end{aligned}$ --> <img style="transform: translateY(0.1em); background: white;" src="svg\ZQbznJ5iXz.svg">
+with a regular part $F(\mathbf{k})$ and a singular weight function $W(\mathbf{k})$. $W(\mathbf{k})$ may be discontinous or divergent in certain place in BZ, which causes poor convergence of integration. Typical examples include
+$$ W(\mathbf{k}) &= \Theta(\epsilon_F-\varepsilon(\mathbf{k})) $$
+$$ W(\mathbf{k}) &= \delta(\epsilon_F-\varepsilon(\mathbf{k})) $$
+$$ W(\mathbf{k}) &= \Theta(\epsilon_F-\varepsilon(\mathbf{k}))\frac{1}{D(\mathbf{k})} $$
+$$ W(\mathbf{k}) &= \Theta(\epsilon_F-\varepsilon(\mathbf{k}))\delta(D(\mathbf{k})) $$
 BZIntegral.jl takes in values of some interpolable function, e.g. <!-- $\varepsilon(\mathbf{k})$ --> <img style="transform: translateY(0.1em); background: white;" src="svg\vvgZ1nqylK.svg"> and <!-- $D(\mathbf{k})$ --> <img style="transform: translateY(0.1em); background: white;" src="svg\WWNYzbQ5WE.svg">, on a **regular grid** filling the BZ and returns the integral weights on the same <!-- $\mathbf{k}$ --> <img style="transform: translateY(0.1em); background: white;" src="svg\edaQHJxNsx.svg">-grid which can be used to integrate any regular <!-- $F(\mathbf{k})$ --> <img style="transform: translateY(0.1em); background: white;" src="svg\JuYSjlFSX4.svg"> over the BZ by forming a weighted sum on the regular grid.
 
 Currently three types of singular factors in <!-- $W(\mathbf{k})$ --> <img style="transform: translateY(0.1em); background: white;" src="svg\c8NcJYlWRs.svg"> are supported: <!-- $\Theta(X(\mathbf{k}))$ --> <img style="transform: translateY(0.1em); background: white;" src="svg\dUCcDpKnpX.svg">,<!-- $\delta(X(\mathbf{k}))$ --> <img style="transform: translateY(0.1em); background: white;" src="svg\aGX8b962A9.svg">, and <!-- $1/D(\mathbf{k})$ --> <img style="transform: translateY(0.1em); background: white;" src="svg\F11quYO4A4.svg">. Routines that handles <!-- $W(\mathbf{k})$ --> <img style="transform: translateY(0.1em); background: white;" src="svg\eZNVK1oF42.svg"> with multiple singular factors are available.
