@@ -8,7 +8,7 @@ $$ \text{Int} = \int d^d k W(\mathbf{k}) F(\mathbf{k}) $$
 
 with a regular part $F(\mathbf{k})$ and a singular weight function $W(\mathbf{k})$. $W(\mathbf{k})$ may be discontinous or divergent in certain place in BZ, which causes poor convergence of integration. Typical examples include
 
-$$ W(\mathbf{k}) &= \Theta(\epsilon_F-\varepsilon(\mathbf{k})) $$
+$$ W(\mathbf{k}) = \Theta(\epsilon_F-\varepsilon(\mathbf{k})) $$
 
 $$ W(\mathbf{k}) &= \delta(\epsilon_F-\varepsilon(\mathbf{k})) $$
 $$ W(\mathbf{k}) &= \Theta(\epsilon_F-\varepsilon(\mathbf{k}))\frac{1}{D(\mathbf{k})} $$
