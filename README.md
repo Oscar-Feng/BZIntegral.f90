@@ -32,7 +32,7 @@ $$ W(\mathbf{k}) = \Theta(\epsilon_F-\varepsilon(\mathbf{k}))$$
 in 3D is named 
 `Quad3DRuleTheta` 
 
-Symbol "Theta","Delta" and "FrakD" stand for $\Theta(X(\mathbf{k}))$, $\delta(X(\mathbf{k}))$, and $1/D(\mathbf{k})$. And the routine that handles a weight function with multiple singular factor,
+Symbol "Theta","Delta" and "FrakD" stand for $\Theta(X(\mathbf{k}))$, $\delta(X(\mathbf{k}))$, and $1/D(\mathbf{k})$. And the routine that handles a weight function with multiple singular factors,
 
 $$ W(\mathbf{k}) = \Theta(\epsilon_F-\varepsilon(\mathbf{k}))\frac{1}{D(\mathbf{k})}$$
 
