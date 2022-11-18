@@ -57,7 +57,7 @@ in documented description, and we call it as
 ```
 Wmesh = Quad3DRuleTheta(Emesh,eF,iter)
 ```
-The varible `Emesh` and `Wmesh` should be 3D-Arrays with odd number of entres in each dimension. They correspond to values on a mesh filling the BZ with open boundary condition (OBC), points on one boundary are identified with points on the oppsite boundary in case of periodic boundary condition (PBC).
+The variable `Emesh` and `Wmesh` should be 3D-Arrays with odd number of entres in each dimension. They correspond to values on a mesh filling the BZ with open boundary condition (OBC), points on one boundary are identified with points on the oppsite boundary in case of periodic boundary condition (PBC).
 
 And with $F(\mathbf{k})$ sampled on the same grid `Fmesh`, the integral can be calculated as 
 ```
