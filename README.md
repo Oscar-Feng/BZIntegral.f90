@@ -45,7 +45,7 @@ Currently, the package provides the following routines:
 Quad*DRuleTheta,Quad*DRuleDelta,Quad*DRuleThetaFrakD,Quad*DRuleThetaDelta,Quad*DRuleThetaTheta,Quad*DRuleThetaThetaFrakD,Quad*DRuleDeltaDelta,Quad*DRuleThetaThetaDelta
 ```
 
-A typical routine with function header
+A typical routine with header
 ```
 subroutine Quad3DRuleTheta(Emesh,eF,iter=2)
 ```
