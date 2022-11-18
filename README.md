@@ -44,7 +44,6 @@ Currently, the package provides the following routines:
 ```
 Quad*DRuleTheta,Quad*DRuleDelta,Quad*DRuleThetaFrakD,Quad*DRuleThetaDelta,Quad*DRuleThetaTheta,Quad*DRuleThetaThetaFrakD,Quad*DRuleDeltaDelta,Quad*DRuleThetaThetaDelta
 ```
-along with some broadening methods contained in submodule `BZInt3D` and `BZInt2D`.
 
 A typical routine with function header
 ```
