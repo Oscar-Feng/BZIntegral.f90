@@ -20,7 +20,7 @@ BZIntegral.f90 takes in values of some interpolable function, e.g. $\varepsilon(
 
 Currently three types of singular factors in $W(\mathbf{k})$ are supported: $\Theta(X(\mathbf{k}))$, $\delta(X(\mathbf{k}))$, and $1/D(\mathbf{k})$. Routines that handle $W(\mathbf{k})$ with multiple singular factors are available.
 ## Compilation
-To run a fortran program consist of a series of Fortran files, one need to first compile them by `makefile`, then run the executable file. Some `makefile` examples are given in `Int2d` and `Int3d`.
+To run a fortran program consists of a series of Fortran files, one need to first compile them by `makefile`, then run the executable file. Some `makefile` examples are given in `Int2d` and `Int3d`.
 
 ## Naming convention
 The routines in this package are named as 
